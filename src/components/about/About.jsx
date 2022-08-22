@@ -23,17 +23,26 @@ const About = () => {
               <h5>Experience</h5>
               <small>1+ Years working</small>
             </article>
+
             <article className="about__card">
               <FiUsers className="about__icon" />
               <h5>clients</h5>
               <small>30+ WorldWid </small>
             </article>
+
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
               <small>3 completed</small>
             </article>
           </div>
+          <p>
+            네 안녕하세요네 안녕하세요네 안녕하세요네 안녕하세요네 안녕하세요네
+            안녕하세요네 안녕하세요네 안녕하세요네 안녕하세요네 안녕하세요
+          </p>
+          <a href="#content" className="btn btn-primary">
+            let's talk
+          </a>
         </div>
       </div>
     </section>
