@@ -1,7 +1,11 @@
 import React from "react";
 import "./experience.css";
 function Experience() {
-  return <section id="experience">Experience</section>;
+  return (
+    <section id="experience">
+      <h5>What Skills I have</h5>
+    </section>
+  );
 }
 
 export default Experience;
