@@ -115,18 +115,17 @@ img {
 }
 
 /* -------------- media queries (medium 기기) ---------------*/
-@media screen and (max-width :1024px) {
+@media screen and (max-width: 1024px) {
   .container {
     width: var(--container-width-md);
-  
   }
   section {
     margin-top: 6rem;
-    height: 100vh;
+    /* height: 100vh; */
   }
 }
 /* -------------- media queries (small 기기) ---------------*/
-@media screen and (max-width :600px) {
+@media screen and (max-width: 600px) {
   .container {
     width: (var(--container-width-sm));
   }
